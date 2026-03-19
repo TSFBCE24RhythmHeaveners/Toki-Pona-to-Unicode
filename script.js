@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>:3</title>
+	<style>@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Kalnia:wght@500&display=swap&family=Comic+Neue:ital,wght@0,700;1,700&display=swap');</style>
+	<link rel="stylesheet" href="/style.css">
+	<link rel="icon" href="/media/images/favicon.ico" type="image/x-icon">
+	<meta name="description" content="Hello I'm known as Dressed Mole-Rat or jan Awa, depending on who you are.">
+	<meta name="darkreader-lock">
+</head>
+<body>
+	<script src="/main.js" defer></script>
+	
+	<!-- END HEADER -->
+
+	<script src="script.js" defer></script>
+
+	<div id="content">
+		<main>
+
+			<div class="box">
+				<h2>sitelen Juniko</h2>
+				<p>I made this in like three minutes basically for myself, but you can try it out if you want. The Ucsur converter isn't really finished, but you can use for example a plus "toki+pona" for contained glyphs, or a hyphen "soweli-kasi" for stacked glyphs. Names are written with square brackets "jan [awen wile awa]"</p>
+				<p>The unicode approximations come from <a href="https://sona.pona.la/wiki/sitelen_Juniko">sona.pona.la</a></p>
+				<textarea id="lasina" placeholder="toki pona latin text here" width="100%" oninput="update_juniko()"></textarea>
+				<p id="juniko">-</p>
+				<p id="ucsur">-</p>
+			</div>
+		</main>
+
+		<aside id="right_aside">
+			<div class="box">
+				<h2>Interactives</h2>
+				<p><a href="/juniko/">Toki Pona to Unicode</a></p>
+				<p><a href="/morse-keyer/">Morse keyer</a></p>
+				<p><a href="/tap-code-trainer/">Tap code practice</a></p>
+				<p><a href="/anagram-trainer/">Anagram practice</a></p>
+			</div>
+		</aside>
+	</div>
+
+	<footer>
+		<p>Created by me in pure HTML, CSS, and a bit of JS. If you have a question (or just like the site), email me! <a href="mailto:soweliawa@gmail.com">soweliawa@gmail.com</a></p>
+	</footer>
+</body>
+</html>
